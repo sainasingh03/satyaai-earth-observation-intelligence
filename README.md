@@ -1,61 +1,103 @@
 # 🌷 SATYAAI
 
-## Ask the Earth. Understand the Change.
+<h3 align="center">
+  Ask the Earth. Understand the Change.
+</h3>
 
 <p align="center">
-  <img src ="C:\Users\saina\OneDrive\Videos\Pictures\satyaai-hero.png" alt="SATYAAI - Earth Observation Intelligence" width="100%">
+  <strong>AI-Powered Earth Observation & Satellite Change Intelligence Platform</strong>
 </p>
 
 <p align="center">
-  <strong>AI-Powered Earth Observation & Satellite Change Intelligence</strong>
-</p>
-
-<p align="center">
-  Turn complex satellite data into understandable, actionable Earth intelligence using Natural Language AI, Computer Vision and Geospatial Analytics.
-</p>
-
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi)
-![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-TS-3178C6?logo=typescript)
-![PyTorch](https://img.shields.io/badge/PyTorch-AI%2FML-EE4C2C?logo=pytorch)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?logo=opencv)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-Geospatial-139C5A)
-![Leaflet](https://img.shields.io/badge/Leaflet-Interactive%20Maps-199900?logo=leaflet)
-![License](https://img.shields.io/badge/License-MIT-green)
-
+  Transform complex satellite data into understandable, explainable and actionable Earth intelligence using AI, Computer Vision and Geospatial Analytics.
 </p>
 
 ---
 
-# 🌍 What is SATYAAI?
+## 🌍 SATYAAI
 
-**SATYAAI** is an AI-powered Earth Observation Intelligence platform that allows users to interact with satellite data using natural language.
+<p align="center">
+  <img 
+    src="./docs/satyaai-hero.png" 
+    alt="SATYAAI - AI Powered Earth Observation Intelligence"
+    width="100%"
+  />
+</p>
 
-Instead of requiring users to understand complex GIS tools, raster formats, spectral indices or remote-sensing workflows, SATYAAI lets them simply **ask the Earth a question**.
+---
+
+## 🛰️ About SATYAAI
+
+**SATYAAI** is an AI-powered Earth Observation Intelligence platform designed to make satellite data easier to understand and use.
+
+Instead of requiring users to learn complex GIS tools, raster processing, satellite datasets and remote-sensing workflows, SATYAAI allows them to simply **ask questions about the Earth using natural language**.
 
 ### Example
 
 > "Where has vegetation decreased near river basins in Kerala between 2022 and 2026?"
 
-SATYAAI converts the question into:
+SATYAAI converts the natural-language question into a structured spatial analysis and combines:
+
+- 🧠 Natural Language AI
+- 🛰️ Satellite imagery
+- 🌱 Vegetation analysis
+- 🗺️ GIS operations
+- 👁️ Computer Vision
+- 🔄 Change Detection
+- 📊 Explainable analytics
+- 📄 Earth observation reports
+
+---
+
+# 🎯 Problem
+
+Earth observation data contains enormous amounts of valuable information, but extracting useful insights often requires specialized knowledge of:
+
+- Remote sensing
+- GIS
+- Raster data
+- Satellite imagery
+- Spectral indices
+- Spatial analysis
+- Programming
+- Data processing
+
+This creates a barrier for students, researchers, administrators, environmental analysts and other users who need Earth intelligence but may not be experts in geospatial technologies.
+
+---
+
+# 💡 Our Solution
+
+SATYAAI creates a **Natural Language Interface for Earth Observation**.
+
+The user asks a question in normal language.
+
+SATYAAI understands the intent, identifies the geographical and temporal constraints, performs the appropriate analysis and presents the result visually with supporting evidence.
 
 ```text
-Natural Language
-       ↓
-Spatial Intent
-       ↓
-Satellite Data
-       ↓
-AI / Computer Vision
-       ↓
-Geospatial Analysis
-       ↓
-Change Detection
-       ↓
-Evidence + Confidence
-       ↓
-Earth Intelligence Report
-
+                    🌷 SATYAAI
+                        │
+                  "Ask the Earth"
+                        │
+                        ↓
+             Natural Language Query
+                        │
+              ┌─────────┴─────────┐
+              ↓                   ↓
+          🧠 AI / NLU          🛰️ Satellite
+              │                   │
+              ↓                   ↓
+        Query Planning       Image Analysis
+              │                   │
+              └─────────┬─────────┘
+                        ↓
+                 🌍 Geo AI / GIS
+                        │
+                        ↓
+                Change Detection
+                        │
+                        ↓
+              Evidence + Confidence
+                        │
+                        ↓
+                📊 Earth Report
