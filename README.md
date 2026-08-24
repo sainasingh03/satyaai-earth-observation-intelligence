@@ -3,7 +3,7 @@
 ## Ask the Earth. Understand the Change.
 
 <p align="center">
-  <img src="satyaai-hero.png" alt="SATYAAI - Earth Observation Intelligence" width="100%">
+  <img src ="C:\Users\saina\OneDrive\Videos\Pictures\satyaai-hero.png" alt="SATYAAI - Earth Observation Intelligence" width="100%">
 </p>
 
 <p align="center">
