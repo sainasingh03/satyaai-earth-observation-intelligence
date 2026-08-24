@@ -1,128 +1,108 @@
 # 🌷 SATYAAI
 
+<h1 align="center">🌍 SATYAAI</h1>
+
 <h3 align="center">
   Ask the Earth. Understand the Change.
 </h3>
 
 <p align="center">
-  <strong>AI-Powered Earth Observation & Satellite Change Intelligence Platform</strong>
+  <strong>AI-Powered Earth Observation Intelligence Platform</strong>
 </p>
 
 <p align="center">
-  Transform complex satellite data into understandable, explainable and actionable Earth intelligence using AI, Computer Vision and Geospatial Analytics.
+  Turning complex satellite imagery, geospatial data and environmental signals
+  into understandable, explainable and actionable intelligence.
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/AI%2FML-Earth%20Intelligence-8E4D32?style=for-the-badge">
+  <img src="https://img.shields.io/badge/React-TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/FastAPI-Python-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+  <img src="https://img.shields.io/badge/Geospatial-GIS-4E6143?style=for-the-badge">
+</p>
 
-![GitHub](https://img.shields.io/badge/GitHub-SATYAAI-181717?style=for-the-badge&logo=github)
-
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-Frontend-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-![AI/ML](https://img.shields.io/badge/AI%2FML-Earth%20Intelligence-8E4D32?style=for-the-badge)
-
-![License](https://img.shields.io/badge/License-MIT-4E6143?style=for-the-badge)
-
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-problem">Problem</a> •
+  <a href="#-solution">Solution</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-architecture">Architecture</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-team-workflow">Team Workflow</a>
 </p>
 
 ---
 
-## 🌍 SATYAAI
+## 🌍 Product Preview
 
 <p align="center">
-  <img src="./docs/satyaai-hero.png" alt="SATYAAI - AI Powered Earth Observation Intelligence" width="100%">
+  <img
+    src="./docs/satyaai-hero.png"
+    alt="SATYAAI Earth Observation Intelligence Dashboard"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <i>
+    A natural-language interface for exploring Earth observation intelligence.
+  </i>
 </p>
 
 ---
 
-## 🌱 What is SATYAAI?
+# 🌱 Overview
 
-**SATYAAI** is an AI-powered Earth Observation Intelligence platform designed to make satellite data easier to understand, explore and act upon.
+**SATYAAI** is an AI-powered Earth Observation Intelligence platform that allows users to interact with satellite and geospatial information using **natural language**.
 
-Instead of requiring users to understand complex:
+Traditional Earth observation workflows often require users to understand:
 
 - GIS software
 - Satellite imagery
 - Raster processing
+- Coordinate systems
+- Spectral bands
 - Remote sensing
-- Spatial analysis
-- Spectral indices
+- Spatial queries
+- Vegetation indices
 - Change detection
+- Geospatial analysis
 
-SATYAAI allows users to simply **ask questions about the Earth using natural language.**
+SATYAAI attempts to simplify this workflow.
+
+Instead of asking users to manually operate complex GIS tools, SATYAAI provides a conversational interface where a user can ask questions about the Earth.
 
 ### Example
 
 > **"Where has vegetation decreased near river basins in Kerala between 2022 and 2026?"**
 
-SATYAAI translates the question into a structured Earth Observation workflow and produces:
-
-**Natural Language → AI Query Understanding → Satellite Analysis → GIS Processing → Change Detection → Evidence → Explanation**
+The system can interpret the question, identify the relevant geographic and temporal parameters, select an appropriate analysis workflow and present the result through an interactive geospatial interface.
 
 ---
 
-# 🚀 The Problem
+# 🌎 The Vision
 
-Earth observation satellites generate enormous amounts of valuable data.
+The core idea behind SATYAAI is simple:
 
-However, most people cannot easily use this information because satellite analysis normally requires knowledge of:
+> ### **Ask the Earth. Understand the Change.**
 
-- Remote sensing
-- GIS
-- Raster processing
-- Satellite bands
-- Coordinate systems
-- Spatial queries
-- Spectral indices
-- Image processing
+Earth observation satellites continuously capture enormous amounts of information about our planet.
 
-This creates a gap between **satellite data** and **people who need actionable environmental intelligence**.
+The challenge is not only collecting this information.
 
-SATYAAI aims to reduce that gap.
+The challenge is:
 
----
+**How do we make it understandable and useful?**
 
-# 💡 Our Solution
-
-SATYAAI creates a natural-language interface for Earth Observation.
-
-A user can ask:
-
-> "Show areas where vegetation decreased."
-
-or:
-
-> "Find possible environmental changes near rivers."
-
-SATYAAI converts the request into an analysis pipeline.
+SATYAAI aims to bridge the gap between:
 
 ```text
-                    🌷 SATYAAI
-                         │
-                         ▼
-                Natural Language Query
-                         │
-                         ▼
-                  AI Query Planner
-                         │
-              ┌──────────┴──────────┐
-              ▼                     ▼
-          Vision AI              Geo AI
-              │                     │
-              ▼                     ▼
-      Satellite Analysis      Spatial Analysis
-              │                     │
-              └──────────┬──────────┘
-                         ▼
-                    Change Map
-                         │
-                         ▼
-              Evidence + Confidence
-                         │
-                         ▼
-                  Earth Report
+Satellite Data
+      ↓
+Complex Scientific Processing
+      ↓
+GIS / Remote Sensing Expertise
+      ↓
+Human Understanding
