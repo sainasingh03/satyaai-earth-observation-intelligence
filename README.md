@@ -1,60 +1,20 @@
-# 🌷 SATYAAI
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-## Ask the Earth. Understand the Change.
+# Run and deploy your AI Studio app
 
-SATYAAI is an AI-powered Earth Observation Intelligence platform that allows users to query satellite data using natural language.
+This contains everything you need to run your app locally.
 
-### SIH
+View your app in AI Studio: https://ai.studio/apps/f55c57fa-187f-49a5-9121-186174cd894d
 
-SIH26167 — SatQuery AI — ISRO
+## Run Locally
 
-## 🚀 Features
+**Prerequisites:**  Node.js
 
-- Natural-language satellite queries
-- Earth observation analysis
-- NDVI vegetation analysis
-- Change detection
-- Interactive GIS visualization
-- Spatial intelligence
-- Explainable AI
-- Satellite evidence reports
 
-## 🧠 AI/ML
-
-- PyTorch
-- Transformers
-- OpenCV
-- NumPy
-- Pandas
-- scikit-learn
-
-## 🌍 Geospatial
-
-- Rasterio
-- GeoPandas
-- Shapely
-- Leaflet / MapLibre
-
-## ⚙️ Backend
-
-- Python
-- FastAPI
-- Uvicorn
-- Pydantic
-- SQLAlchemy
-- SQLite
-
-## 🎨 Frontend
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-
-## 🔐 Security
-
-API keys and environment secrets are never committed to the repository.
-
-## 👥 Development
-
-The project uses feature branches and Pull Requests for collaborative development.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

@@ -1,0 +1,10 @@
+{
+  "name": "SatyaAI - Earth Observation Intelligence",
+  "description": "Natural language geospatial intelligence and satellite earth observation platform with 3D planetary globe, temporal change detection, and field mission synchronization.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
