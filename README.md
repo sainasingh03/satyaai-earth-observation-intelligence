@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="./docs/satyaai-hero.png" alt="SATYAAI Earth Observation Intelligence" width="100%">
+  <img src="docs/satyaai-hero.png" alt="SATYAAI Earth Observation Intelligence" width="100%">
 </p>
 
 <p align="center">
