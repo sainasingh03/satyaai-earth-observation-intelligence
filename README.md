@@ -12,92 +12,117 @@
   Transform complex satellite data into understandable, explainable and actionable Earth intelligence using AI, Computer Vision and Geospatial Analytics.
 </p>
 
+<p align="center">
+
+![GitHub](https://img.shields.io/badge/GitHub-SATYAAI-181717?style=for-the-badge&logo=github)
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-Frontend-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+![AI/ML](https://img.shields.io/badge/AI%2FML-Earth%20Intelligence-8E4D32?style=for-the-badge)
+
+![License](https://img.shields.io/badge/License-MIT-4E6143?style=for-the-badge)
+
+</p>
+
 ---
 
 ## 🌍 SATYAAI
 
 <p align="center">
-  <img 
-    src="./docs/satyaai-hero.png" 
-    alt="SATYAAI - AI Powered Earth Observation Intelligence"
-    width="100%"
-  />
+  <img src="./docs/satyaai-hero.png" alt="SATYAAI - AI Powered Earth Observation Intelligence" width="100%">
 </p>
 
 ---
 
-## 🛰️ About SATYAAI
+## 🌱 What is SATYAAI?
 
-**SATYAAI** is an AI-powered Earth Observation Intelligence platform designed to make satellite data easier to understand and use.
+**SATYAAI** is an AI-powered Earth Observation Intelligence platform designed to make satellite data easier to understand, explore and act upon.
 
-Instead of requiring users to learn complex GIS tools, raster processing, satellite datasets and remote-sensing workflows, SATYAAI allows them to simply **ask questions about the Earth using natural language**.
+Instead of requiring users to understand complex:
+
+- GIS software
+- Satellite imagery
+- Raster processing
+- Remote sensing
+- Spatial analysis
+- Spectral indices
+- Change detection
+
+SATYAAI allows users to simply **ask questions about the Earth using natural language.**
 
 ### Example
 
-> "Where has vegetation decreased near river basins in Kerala between 2022 and 2026?"
+> **"Where has vegetation decreased near river basins in Kerala between 2022 and 2026?"**
 
-SATYAAI converts the natural-language question into a structured spatial analysis and combines:
+SATYAAI translates the question into a structured Earth Observation workflow and produces:
 
-- 🧠 Natural Language AI
-- 🛰️ Satellite imagery
-- 🌱 Vegetation analysis
-- 🗺️ GIS operations
-- 👁️ Computer Vision
-- 🔄 Change Detection
-- 📊 Explainable analytics
-- 📄 Earth observation reports
+**Natural Language → AI Query Understanding → Satellite Analysis → GIS Processing → Change Detection → Evidence → Explanation**
 
 ---
 
-# 🎯 Problem
+# 🚀 The Problem
 
-Earth observation data contains enormous amounts of valuable information, but extracting useful insights often requires specialized knowledge of:
+Earth observation satellites generate enormous amounts of valuable data.
+
+However, most people cannot easily use this information because satellite analysis normally requires knowledge of:
 
 - Remote sensing
 - GIS
-- Raster data
-- Satellite imagery
+- Raster processing
+- Satellite bands
+- Coordinate systems
+- Spatial queries
 - Spectral indices
-- Spatial analysis
-- Programming
-- Data processing
+- Image processing
 
-This creates a barrier for students, researchers, administrators, environmental analysts and other users who need Earth intelligence but may not be experts in geospatial technologies.
+This creates a gap between **satellite data** and **people who need actionable environmental intelligence**.
+
+SATYAAI aims to reduce that gap.
 
 ---
 
 # 💡 Our Solution
 
-SATYAAI creates a **Natural Language Interface for Earth Observation**.
+SATYAAI creates a natural-language interface for Earth Observation.
 
-The user asks a question in normal language.
+A user can ask:
 
-SATYAAI understands the intent, identifies the geographical and temporal constraints, performs the appropriate analysis and presents the result visually with supporting evidence.
+> "Show areas where vegetation decreased."
+
+or:
+
+> "Find possible environmental changes near rivers."
+
+SATYAAI converts the request into an analysis pipeline.
 
 ```text
                     🌷 SATYAAI
-                        │
-                  "Ask the Earth"
-                        │
-                        ↓
-             Natural Language Query
-                        │
-              ┌─────────┴─────────┐
-              ↓                   ↓
-          🧠 AI / NLU          🛰️ Satellite
-              │                   │
-              ↓                   ↓
-        Query Planning       Image Analysis
-              │                   │
-              └─────────┬─────────┘
-                        ↓
-                 🌍 Geo AI / GIS
-                        │
-                        ↓
-                Change Detection
-                        │
-                        ↓
+                         │
+                         ▼
+                Natural Language Query
+                         │
+                         ▼
+                  AI Query Planner
+                         │
+              ┌──────────┴──────────┐
+              ▼                     ▼
+          Vision AI              Geo AI
+              │                     │
+              ▼                     ▼
+      Satellite Analysis      Spatial Analysis
+              │                     │
+              └──────────┬──────────┘
+                         ▼
+                    Change Map
+                         │
+                         ▼
               Evidence + Confidence
-                        │
-                        ↓
-                📊 Earth Report
+                         │
+                         ▼
+                  Earth Report
